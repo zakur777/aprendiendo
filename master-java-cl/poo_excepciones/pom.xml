@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>app-parent</artifactId>
+        <artifactId>master-java-cl</artifactId>
         <groupId>cl.zakur</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>master-java-cl</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>poo_interfaces_repositorio</module>
-        <module>poo_excepciones</module>
-    </modules>
+    <artifactId>poo_excepciones</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
